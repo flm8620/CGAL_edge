@@ -6,7 +6,6 @@
 typedef CGAL::Exact_predicates_inexact_constructions_kernel K;
 typedef K::Point_2 Point;
 
-#include <CGAL/Delaunay_triangulation_2.h>
 template <class Kernel>
 using Vb = CGAL::Triangulation_vertex_base_2<Kernel>;
 
